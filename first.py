@@ -424,11 +424,11 @@ if __name__ == '__main__':
     name, len_level = '', ''
     x = 0
     clock = pygame.time.Clock()
-    pygame.mixer.music.load('menu_sound.mp3')
+    pygame.mixer.music.load('data/menu_sound.mp3')
     running = True
     pygame.mixer.music.play()
     quit_sound = pygame.mixer.Sound('Data/quit.ogg')
-    sound1 = pygame.mixer.Sound('Death.mp3')
+    sound1 = pygame.mixer.Sound('data/Death.mp3')
     pygame.mixer.music.set_volume(0.1)
     play_sound = pygame.mixer.Sound('Data/play.ogg')
     start_screen()
