@@ -1,5 +1,5 @@
 # PyDash
-## Geometry Dash on python with pygame
+## Geometry Dash on Python with pygame
 
 
 
